@@ -11,7 +11,8 @@ export default component$(() => {
       <h1>Hi 👋</h1>
       <div class="flat">
         <button onClick$={()=>count.value++} >INCREASE</button>
-        <p>{count}Happy coding 🚀</p>
+        <h2>{count}</h2>
+        <p>Happy coding 🚀</p>
       </div>
     </>
   );
